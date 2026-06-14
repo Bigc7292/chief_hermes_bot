@@ -1,0 +1,35 @@
+{
+  "title": "StoneSightAI: Революция",
+  "type": "ARTIFACT_TYPE_EXPLAINER_VIDEO",
+  "sources": [{
+    "sourceId": {
+      "id": "73d04998-e41b-4d33-a7b6-24bae7201e95"
+    }
+  }, {
+    "sourceId": {
+      "id": "6143371a-15ef-4dcc-9caf-169009d08dff"
+    }
+  }, {
+    "sourceId": {
+      "id": "5aa9a0b0-e17d-4edf-b104-8a0fbb02c996"
+    }
+  }, {
+    "sourceId": {
+      "id": "bb0d2d57-e99b-4060-9626-2dbb46bed285"
+    }
+  }, {
+    "sourceId": {
+      "id": "e6df3780-d083-429f-9e5b-93c7b9c647ae"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "explainerVideo": {
+    "generationOptions": {
+      "languageCode": "ru-RU",
+      "videoFocus": "Полный обзор StoneSightAI, включая решение проблемы «Vision Gap», технологию генеративного синтеза движения (вращение на 180 градусов), анализ мирового рынка столешниц объемом 157 миллиардов долларов и стратегические возможности на рынке ОАЭ.",
+      "length": "EXPLAINER_VIDEO_LENGTH_UNSPECIFIED",
+      "templateFormat": "TEMPLATE_FORMAT_EXPLAINER",
+      "videoOverviewStyle": "VIDEO_OVERVIEW_STYLE_UNSPECIFIED"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "title": "AI replaces physical stone samples",
+  "type": "ARTIFACT_TYPE_AUDIO_OVERVIEW",
+  "sources": [{
+    "sourceId": {
+      "id": "73d04998-e41b-4d33-a7b6-24bae7201e95"
+    }
+  }, {
+    "sourceId": {
+      "id": "6143371a-15ef-4dcc-9caf-169009d08dff"
+    }
+  }, {
+    "sourceId": {
+      "id": "5aa9a0b0-e17d-4edf-b104-8a0fbb02c996"
+    }
+  }, {
+    "sourceId": {
+      "id": "bb0d2d57-e99b-4060-9626-2dbb46bed285"
+    }
+  }, {
+    "sourceId": {
+      "id": "e6df3780-d083-429f-9e5b-93c7b9c647ae"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "audioOverview": {
+    "generationOptions": {
+      "episodeFocus": "Explain the technology for an interior designer choosing materials for clients.\n- Highlight time savings when visualising stone for clients.",
+      "episodeLength": "EPISODE_LENGTH_UNSPECIFIED",
+      "targetAudience": "TARGET_AUDIENCE_UNSPECIFIED",
+      "languageCode": "en",
+      "showFormat": "SHOW_FORMAT_THE_BRIEF"
+    },
+    "isInteractive": false
+  }
+}

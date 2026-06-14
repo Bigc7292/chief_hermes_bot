@@ -1,0 +1,31 @@
+{
+  "title": "StoneSightAI",
+  "type": "ARTIFACT_TYPE_EXPLAINER_VIDEO",
+  "sources": [{
+    "sourceId": {
+      "id": "73d04998-e41b-4d33-a7b6-24bae7201e95"
+    }
+  }, {
+    "sourceId": {
+      "id": "5aa9a0b0-e17d-4edf-b104-8a0fbb02c996"
+    }
+  }, {
+    "sourceId": {
+      "id": "bb0d2d57-e99b-4060-9626-2dbb46bed285"
+    }
+  }, {
+    "sourceId": {
+      "id": "e6df3780-d083-429f-9e5b-93c7b9c647ae"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "explainerVideo": {
+    "generationOptions": {
+      "languageCode": "en",
+      "videoFocus": "target the specific use case of the end buyer purchasing journey being smoother using the application, which in theory will increase sales,\nmake sure it is clear what consentino have and also caeserstone what they have also and the pros and cons of both of them companies own visualisers, and why mine is different, just focus on selling my app the idea sell the idea.",
+      "length": "EXPLAINER_VIDEO_LENGTH_UNSPECIFIED",
+      "templateFormat": "TEMPLATE_FORMAT_EXPLAINER",
+      "videoOverviewStyle": "VIDEO_OVERVIEW_STYLE_UNSPECIFIED"
+    }
+  }
+}

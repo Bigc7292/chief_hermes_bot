@@ -1,0 +1,47 @@
+{
+  "title": "Modern Countertops: A Comprehensive Guide to Materials, Sustainability, and Digital Selection",
+  "type": "ARTIFACT_TYPE_TAILORED_REPORT",
+  "sources": [{
+    "sourceId": {
+      "id": "73d04998-e41b-4d33-a7b6-24bae7201e95"
+    }
+  }, {
+    "sourceId": {
+      "id": "6143371a-15ef-4dcc-9caf-169009d08dff"
+    }
+  }, {
+    "sourceId": {
+      "id": "5aa9a0b0-e17d-4edf-b104-8a0fbb02c996"
+    }
+  }, {
+    "sourceId": {
+      "id": "bb0d2d57-e99b-4060-9626-2dbb46bed285"
+    }
+  }, {
+    "sourceId": {
+      "id": "e6df3780-d083-429f-9e5b-93c7b9c647ae"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "tailoredReport": {
+    "generationOptions": {
+      "type": "Educational Reference",
+      "description": "A clear comparison of modern countertop materials and their role in sustainable design.",
+      "sourceIds": [{
+        "id": "73d04998-e41b-4d33-a7b6-24bae7201e95"
+      }, {
+        "id": "6143371a-15ef-4dcc-9caf-169009d08dff"
+      }, {
+        "id": "5aa9a0b0-e17d-4edf-b104-8a0fbb02c996"
+      }, {
+        "id": "bb0d2d57-e99b-4060-9626-2dbb46bed285"
+      }, {
+        "id": "e6df3780-d083-429f-9e5b-93c7b9c647ae"
+      }],
+      "languageCode": "en",
+      "documentDirective": "Outline the key differences between natural granite and engineered quartz for new learners. The guide should explain market trends, such as the shift toward low-silica surfaces and recycled materials like Hybriq+ technology, while highlighting why digital visualisation is becoming essential for consumers to choose the right material for their homes.",
+      "targetAudience": "TAILORED_REPORT_TARGET_AUDIENCE_BEGINNER",
+      "enableU18Classifier": true
+    }
+  }
+}

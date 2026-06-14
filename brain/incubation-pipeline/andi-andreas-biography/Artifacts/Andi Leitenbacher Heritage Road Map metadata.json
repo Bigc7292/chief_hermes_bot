@@ -1,0 +1,19 @@
+{
+  "title": "Andi Leitenbacher Heritage Road Map",
+  "type": "ARTIFACT_TYPE_INFOGRAPHIC",
+  "sources": [{
+    "sourceId": {
+      "id": "669350bc-c521-436c-8a45-e73069053e22"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "infographic": {
+    "generationOptions": {
+      "userSteeringPrompt": "Create a visual road map for the project of documenting the life and heritage of Andi Andreas Daniel Uli Leitenbacher. The map should outline the path toward creating a Bavarian Wiki article, covering key milestones: his birth and royal connections (August 25th), his career as a stem cell courier and career counselor, and his family roots in Teisendorf and the Leitenbach area.",
+      "languageCode": "en-US",
+      "aspectRatio": "ASPECT_RATIO_LANDSCAPE",
+      "informationDensity": "INFORMATION_DENSITY_STANDARD"
+    },
+    "title": "Andi Leitenbacher Heritage Road Map"
+  }
+}

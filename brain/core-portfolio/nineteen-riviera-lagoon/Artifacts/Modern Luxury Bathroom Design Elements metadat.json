@@ -1,0 +1,18 @@
+{
+  "title": "Modern Luxury Bathroom Design Elements",
+  "type": "ARTIFACT_TYPE_INFOGRAPHIC",
+  "sources": [{
+    "sourceId": {
+      "id": "71fc82ba-cd78-4c03-adc9-bb4d66c99a5e"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "infographic": {
+    "generationOptions": {
+      "languageCode": "en-GB",
+      "aspectRatio": "ASPECT_RATIO_LANDSCAPE",
+      "informationDensity": "INFORMATION_DENSITY_STANDARD"
+    },
+    "title": "Modern Luxury Bathroom Design Elements"
+  }
+}
