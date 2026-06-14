@@ -1,0 +1,47 @@
+{
+  "title": "The Generative Shift: Industry Analysis of Motion Synthesis in Architectural Surface Visualization",
+  "type": "ARTIFACT_TYPE_TAILORED_REPORT",
+  "sources": [{
+    "sourceId": {
+      "id": "73d04998-e41b-4d33-a7b6-24bae7201e95"
+    }
+  }, {
+    "sourceId": {
+      "id": "6143371a-15ef-4dcc-9caf-169009d08dff"
+    }
+  }, {
+    "sourceId": {
+      "id": "5aa9a0b0-e17d-4edf-b104-8a0fbb02c996"
+    }
+  }, {
+    "sourceId": {
+      "id": "bb0d2d57-e99b-4060-9626-2dbb46bed285"
+    }
+  }, {
+    "sourceId": {
+      "id": "e6df3780-d083-429f-9e5b-93c7b9c647ae"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "tailoredReport": {
+    "generationOptions": {
+      "type": "Industry Analysis Report",
+      "description": "A deep-dive assessment of the technological shift from static rendering to generative motion synthesis.",
+      "sourceIds": [{
+        "id": "73d04998-e41b-4d33-a7b6-24bae7201e95"
+      }, {
+        "id": "6143371a-15ef-4dcc-9caf-169009d08dff"
+      }, {
+        "id": "5aa9a0b0-e17d-4edf-b104-8a0fbb02c996"
+      }, {
+        "id": "bb0d2d57-e99b-4060-9626-2dbb46bed285"
+      }, {
+        "id": "e6df3780-d083-429f-9e5b-93c7b9c647ae"
+      }],
+      "languageCode": "en",
+      "documentDirective": "Produce a high-level competitive intelligence report comparing legacy WebGL-based visualization engines used by industry incumbents like Cosentino and Caesarstone against emergent generative AI models. The analysis must detail the \u0027Vision Gap\u0027 and the technical superiority of motion synthesis in conveying material presence, light interaction, and subsurface scattering for premium architectural surfaces.",
+      "targetAudience": "TAILORED_REPORT_TARGET_AUDIENCE_PROFESSIONAL",
+      "enableU18Classifier": true
+    }
+  }
+}

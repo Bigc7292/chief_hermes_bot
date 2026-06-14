@@ -1,0 +1,22 @@
+{
+  "title": "Marketing Brochure",
+  "type": "ARTIFACT_TYPE_TAILORED_REPORT",
+  "sources": [{
+    "sourceId": {
+      "id": "71fc82ba-cd78-4c03-adc9-bb4d66c99a5e"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "tailoredReport": {
+    "generationOptions": {
+      "type": "Marketing Brochure",
+      "description": "Professional real estate marketing brochure",
+      "sourceIds": [{
+        "id": "71fc82ba-cd78-4c03-adc9-bb4d66c99a5e"
+      }],
+      "languageCode": "en",
+      "documentDirective": "Create a top-quality, highly attractive, professional marketing PDF document promoting the real estate project based on the provided luxurious bathroom image. The tone should be sexy, attractive, and tailored for high-end luxury real estate marketing. Ensure you remove all ZARA REAL ESTATE COMPANY logos and re-brand it using the image in the file named LOGO.jpg.",
+      "enableU18Classifier": true
+    }
+  }
+}

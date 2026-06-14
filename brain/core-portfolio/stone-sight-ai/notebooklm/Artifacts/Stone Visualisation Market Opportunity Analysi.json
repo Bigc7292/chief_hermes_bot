@@ -1,0 +1,35 @@
+{
+  "title": "Stone Visualisation Market Opportunity Analysis",
+  "type": "ARTIFACT_TYPE_INFOGRAPHIC",
+  "sources": [{
+    "sourceId": {
+      "id": "73d04998-e41b-4d33-a7b6-24bae7201e95"
+    }
+  }, {
+    "sourceId": {
+      "id": "6143371a-15ef-4dcc-9caf-169009d08dff"
+    }
+  }, {
+    "sourceId": {
+      "id": "5aa9a0b0-e17d-4edf-b104-8a0fbb02c996"
+    }
+  }, {
+    "sourceId": {
+      "id": "bb0d2d57-e99b-4060-9626-2dbb46bed285"
+    }
+  }, {
+    "sourceId": {
+      "id": "e6df3780-d083-429f-9e5b-93c7b9c647ae"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "infographic": {
+    "generationOptions": {
+      "userSteeringPrompt": "Create a data-driven infographic focused on \u0027The Vision Gap and Market Opportunity\u0027. \n\nSection 1: The Vision Gap. Contrast \u0027The Technical Failure of 2D\u0027 (flat masks, sticker effects, and high cognitive load leading to decision fatigue) against \u0027StoneSightAI Success\u0027 (Generative Motion Synthesis, 180° clockwise and anti-clockwise rotations, and the use of Temporal Parallax to verify material depth). \n\nSection 2: Market Opportunity. Use a \u0027By the Numbers\u0027 approach. Global Countertop Market: $157.74B (2025) growing to $267.38B (2033). 3D Visualization Software: $14.50B by 2030 with an explosive 23.1% CAGR. Strategic focus on the UAE: $1.67B market and a primary regional hub. \n\nVisual Style: Professional, high-contrast, and luxury-oriented, reflecting the premium stone industry.",
+      "languageCode": "en-GB",
+      "aspectRatio": "ASPECT_RATIO_PORTRAIT",
+      "informationDensity": "INFORMATION_DENSITY_HIGH"
+    },
+    "title": "Stone Visualisation Market Opportunity Analysis"
+  }
+}

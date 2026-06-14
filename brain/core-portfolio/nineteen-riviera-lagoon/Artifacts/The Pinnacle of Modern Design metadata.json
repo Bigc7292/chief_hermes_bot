@@ -1,0 +1,19 @@
+{
+  "title": "The Pinnacle of Modern Design",
+  "type": "ARTIFACT_TYPE_INFOGRAPHIC",
+  "sources": [{
+    "sourceId": {
+      "id": "71fc82ba-cd78-4c03-adc9-bb4d66c99a5e"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "infographic": {
+    "generationOptions": {
+      "userSteeringPrompt": "Focus on the entirety of the real estate project, detailing all spaces, amenities, and overall lifestyle, rather than just the bathroom. Ensure you REMOVE ALL ZARA REAL ESTATE COMPANY LOGOS AND RE-BRAND IT USING THE IMAGE IN THE FILE NAMED LOGO.JPG.",
+      "languageCode": "en-GB",
+      "aspectRatio": "ASPECT_RATIO_PORTRAIT",
+      "informationDensity": "INFORMATION_DENSITY_HIGH"
+    },
+    "title": "The Pinnacle of Modern Design"
+  }
+}

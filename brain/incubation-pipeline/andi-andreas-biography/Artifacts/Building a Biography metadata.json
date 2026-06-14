@@ -1,0 +1,23 @@
+{
+  "title": "Building a Biography",
+  "type": "ARTIFACT_TYPE_EXPLAINER_VIDEO",
+  "sources": [{
+    "sourceId": {
+      "id": "0c1ca184-4150-4767-935d-62708be5b76a"
+    }
+  }, {
+    "sourceId": {
+      "id": "669350bc-c521-436c-8a45-e73069053e22"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "explainerVideo": {
+    "generationOptions": {
+      "languageCode": "en",
+      "videoFocus": "A talk-through guide for developing the Bavarian Wikipedia article for Andreas Daniel Uli Leitenbacher. The video should cover his biographical details (born August 25, 1984), his professional identity as a stem cell courier and career counselor, his connections to the region between Munich and Salzburg, and his recognition in English, Bavarian (Boarisch), and Arabic speaking countries. It should also detail his family history and ancestry, including the meaning of the name Leitenbacher (\"little river\") and the genealogical information from the provided family tree tracing back to the 19th century lineages like Leitenbacher, Eglseer, and Noichl.",
+      "length": "EXPLAINER_VIDEO_LENGTH_UNSPECIFIED",
+      "templateFormat": "TEMPLATE_FORMAT_EXPLAINER",
+      "videoOverviewStyle": "VIDEO_OVERVIEW_STYLE_CLASSIC"
+    }
+  }
+}

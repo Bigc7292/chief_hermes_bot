@@ -1,0 +1,174 @@
+{
+  "title": "Riviera Flashcards",
+  "type": "ARTIFACT_TYPE_APP",
+  "sources": [{
+    "sourceId": {
+      "id": "71fc82ba-cd78-4c03-adc9-bb4d66c99a5e"
+    }
+  }, {
+    "sourceId": {
+      "id": "1336ad0f-21ca-4740-8c80-9c27be130b95"
+    }
+  }, {
+    "sourceId": {
+      "id": "942aa425-6877-4ba4-a96a-0b5fa00ba613"
+    }
+  }, {
+    "sourceId": {
+      "id": "1840339c-bf19-4efc-a4ab-6747268b552a"
+    }
+  }, {
+    "sourceId": {
+      "id": "b75ab3e1-835c-4e5f-81f0-c0d3908f9285"
+    }
+  }, {
+    "sourceId": {
+      "id": "24874b60-db62-4d38-803f-ada34727a4f1"
+    }
+  }, {
+    "sourceId": {
+      "id": "a4b6cf0c-010a-42d7-88c1-32016bae1410"
+    }
+  }, {
+    "sourceId": {
+      "id": "9f909360-1fb1-4bfa-8bab-cb7f155815df"
+    }
+  }, {
+    "sourceId": {
+      "id": "8547bfe5-1467-42b6-b9d7-b096c90a843d"
+    }
+  }, {
+    "sourceId": {
+      "id": "56af6eb4-cebd-41fe-a095-31d065a66937"
+    }
+  }, {
+    "sourceId": {
+      "id": "96d87f40-f910-486b-9422-f7f1f72bad1c"
+    }
+  }, {
+    "sourceId": {
+      "id": "e2676d8f-28d2-487c-97aa-c229fc9b5617"
+    }
+  }, {
+    "sourceId": {
+      "id": "51c6570d-1665-422b-87be-5927ed51e1ac"
+    }
+  }, {
+    "sourceId": {
+      "id": "9fbe9a4e-f9be-46ba-a841-a45234540441"
+    }
+  }, {
+    "sourceId": {
+      "id": "2fee7a2a-3d1a-4df1-93c5-b5e77c8804fa"
+    }
+  }, {
+    "sourceId": {
+      "id": "e469b46e-d1e4-4590-a1c7-10cdf4af3841"
+    }
+  }, {
+    "sourceId": {
+      "id": "8d8d1cd6-06a0-4bda-b0bb-b72c679ed1c5"
+    }
+  }, {
+    "sourceId": {
+      "id": "baa8ac2c-9019-4a76-9d6f-2200f91a4056"
+    }
+  }, {
+    "sourceId": {
+      "id": "7069bedf-6b80-42a1-aea4-68e25db2a34f"
+    }
+  }, {
+    "sourceId": {
+      "id": "ac410abf-e24e-4664-b083-cc7d29fd5ab1"
+    }
+  }, {
+    "sourceId": {
+      "id": "5b0b95d0-ba83-4714-8181-c51bd9d10f24"
+    }
+  }, {
+    "sourceId": {
+      "id": "22ea9bff-b24b-4fb3-ada1-8d9f7403e798"
+    }
+  }, {
+    "sourceId": {
+      "id": "97e27cb5-8e40-477e-a7f2-2b08b3360a93"
+    }
+  }, {
+    "sourceId": {
+      "id": "86bafc78-844b-4877-a84e-4d8f3012b9ea"
+    }
+  }, {
+    "sourceId": {
+      "id": "57ff7353-84be-47ab-99d8-aad3f75ea958"
+    }
+  }, {
+    "sourceId": {
+      "id": "db5faa59-11b8-449d-974d-3e420d24cb3e"
+    }
+  }, {
+    "sourceId": {
+      "id": "7f56ce88-b560-49de-83bc-a9e63e2e7653"
+    }
+  }, {
+    "sourceId": {
+      "id": "376e0a7f-9546-4409-928d-9f04874c6a97"
+    }
+  }, {
+    "sourceId": {
+      "id": "e0bc2b04-d88b-4bc0-96f1-dadb5afa9e8d"
+    }
+  }, {
+    "sourceId": {
+      "id": "9a121f28-42a4-46a2-b7cf-fa7123f8e818"
+    }
+  }, {
+    "sourceId": {
+      "id": "7b8f7a09-cc01-4304-ad5b-19a72ae207d6"
+    }
+  }, {
+    "sourceId": {
+      "id": "fad148a1-b06a-4c17-876e-e56688470ea4"
+    }
+  }, {
+    "sourceId": {
+      "id": "f09d9406-4028-464e-b6a3-afee4b06747f"
+    }
+  }, {
+    "sourceId": {
+      "id": "e6f14c5c-0831-4190-b3fb-a6ee27f482a0"
+    }
+  }, {
+    "sourceId": {
+      "id": "aeb759eb-3eba-40f6-9d37-64b53276ecd5"
+    }
+  }, {
+    "sourceId": {
+      "id": "4fcccf0e-4768-41d8-99c9-a868b0eede1c"
+    }
+  }, {
+    "sourceId": {
+      "id": "ad72f403-07d8-45be-87fd-0d4c466bd268"
+    }
+  }, {
+    "sourceId": {
+      "id": "74ab9618-2bbc-4287-9f42-608e31b3129d"
+    }
+  }, {
+    "sourceId": {
+      "id": "0ec73fa6-82ff-4d08-b67f-3ea965bb5dc7"
+    }
+  }],
+  "status": "ARTIFACT_STATUS_READY",
+  "app": {
+    "appHtml": "",
+    "generationOptions": {
+      "appType": "APP_TYPE_FLASHCARDS",
+      "languageCode": "en-GB",
+      "flashcardsGenerationOptions": {
+        "cardQuantity": "CARD_QUANTITY_STANDARD",
+        "flashcardsDifficulty": "FLASHCARDS_DIFFICULTY_MEDIUM"
+      },
+      "enableU18Classifier": true
+    }
+  }
+}
