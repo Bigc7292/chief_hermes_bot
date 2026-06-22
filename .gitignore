@@ -128,3 +128,12 @@ RELEASE_v*.md
 grok_full_data.zip
 brain.zip
 
+# Personal backups, credentials, and executables
+/brain/
+*accessKeys.csv
+*credentials.csv
+Hermes-Setup.exe
+clean_brain.zip
+google_gemini_data.zip
+google_gemini_data_2.zip
+

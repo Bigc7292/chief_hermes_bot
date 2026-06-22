@@ -1170,3 +1170,10 @@ not the specific names.
 
 Reviewers should reject new change-detector tests; authors should convert
 them into invariants before re-requesting review.
+
+---
+
+## 🌟 GOLDEN RULES FOR HERMES_AGENT PROJECT
+
+1. **Project Isolation**: When working within the `hermes_agent` project, verify and ensure we are always working on the `hermes_agent` repository (`C:\Users\Alfa\Desktop\hermes_agent`) and not getting mixed up with other similar projects, clones, folders, or workspaces.
+2. **Proactive Credentials Scanning & Security**: You must scan every file within the `hermes_agent` repository—including all Gemini data, Grok data, brain data, `.env` files, logs, and zip files—and secure all private keys, API keys, database credentials, usernames, user IDs, crypto private keys, and any other security credentials. Never expose them or leak them.
