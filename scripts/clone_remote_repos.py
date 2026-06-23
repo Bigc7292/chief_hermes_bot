@@ -17,7 +17,10 @@ REPOS = {
     "cc-switch": "https://github.com/farion1231/cc-switch",
     "AionUi": "https://github.com/iOfficeAI/AionUi",
     "EverOS": "https://github.com/EverMind-AI/EverOS",
-    "superpowers-zh": "https://github.com/jnMetaCode/superpowers-zh"
+    "superpowers-zh": "https://github.com/jnMetaCode/superpowers-zh",
+    "wondelai-skills": "https://github.com/wondelai/skills.git",
+    "hermes-skill-factory": "https://github.com/Romanescu11/hermes-skill-factory.git",
+    "youtube-skills": "https://github.com/ZeroPointRepo/youtube-skills.git"
 }
 
 TARGET_DIR = Path("/home/ubuntu/hermes-agent/ignored/external_repos")

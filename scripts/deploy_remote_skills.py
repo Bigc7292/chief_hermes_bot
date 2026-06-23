@@ -27,7 +27,12 @@ SKILL_DEPLOY_SPEC = [
     # awesome-claude-code slash commands
     ("awesome-claude-code/resources/slash-commands/optimize", "optimize-code"),
     ("awesome-claude-code/resources/slash-commands/pr-review", "pr-review"),
-    ("awesome-claude-code/resources/slash-commands/release", "release-command")
+    ("awesome-claude-code/resources/slash-commands/release", "release-command"),
+    
+    # New priority skills
+    ("wondelai-skills/skills", "wondelai-skills"),
+    ("hermes-skill-factory", "hermes-skill-factory"),
+    ("youtube-skills/skills/youtube-full", "youtube-full")
 ]
 
 def main():
