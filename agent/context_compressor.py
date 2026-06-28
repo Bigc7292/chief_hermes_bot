@@ -82,7 +82,7 @@ _HISTORICAL_SUMMARY_PREFIXES = (
 )
 
 # Minimum tokens for the summary output
-_MIN_SUMMARY_TOKENS = 2000
+_MIN_SUMMARY_TOKENS = 600
 # Proportion of compressed content to allocate for summary
 _SUMMARY_RATIO = 0.20
 # Absolute ceiling for summary tokens (even on very large context windows)
@@ -1383,7 +1383,7 @@ Be specific with file paths, commands, line numbers, and results.]
 ## Critical Context
 [Any specific values, error messages, configuration details, or data that would be lost without explicit preservation. NEVER include API keys, tokens, passwords, or credentials — write [REDACTED] instead.]
 
-Target ~{summary_budget} tokens. Be CONCRETE — include file paths, command outputs, error messages, line numbers, and specific values. Avoid vague descriptions like "made some changes" — say exactly what changed.
+Target ~{summary_budget} tokens. Be CONCISE — prioritize key facts, decisions, and pending work. Include critical file paths and errors but keep descriptions brief. Prefer short bullet points over paragraphs.
 {_temporal_anchoring_rule}
 Write only the summary body. Do not include any preamble or prefix."""
 
