@@ -5,8 +5,30 @@
 // incoming ``X-Forwarded-Prefix`` header so the SPA can address its own
 // ``/api/...`` and ``/dashboard-plugins/...`` URLs correctly without a
 // rebuild. Empty string means "served at root".
+function getSavedToken(): string | null {
+  if (typeof window === "undefined") return null;
+  try {
+    return localStorage.getItem("hermes.backendToken");
+  } catch {
+    return null;
+  }
+}
+
+function getSavedBase(): string | null {
+  if (typeof window === "undefined") return null;
+  try {
+    return localStorage.getItem("hermes.backendUrl");
+  } catch {
+    return null;
+  }
+}
+
 function readBasePath(): string {
   if (typeof window === "undefined") return "";
+  const savedBase = getSavedBase();
+  if (savedBase) {
+    return savedBase.replace(/\/+$/, "");
+  }
   const raw = window.__HERMES_BASE_PATH__ ?? "";
   if (!raw) return "";
   // Normalise: ensure leading slash, strip trailing slash.
@@ -48,7 +70,7 @@ export async function fetchJSON<T>(
 ): Promise<T> {
   // Inject the session token into all /api/ requests.
   const headers = new Headers(init?.headers);
-  const token = window.__HERMES_SESSION_TOKEN__;
+  const token = getSavedToken() || window.__HERMES_SESSION_TOKEN__;
   if (token) {
     setSessionHeader(headers, token);
   }
@@ -147,6 +169,11 @@ function pluginPath(name: string): string {
 
 async function getSessionToken(): Promise<string> {
   if (_sessionToken) return _sessionToken;
+  const savedToken = getSavedToken();
+  if (savedToken) {
+    _sessionToken = savedToken;
+    return _sessionToken;
+  }
   const injected = window.__HERMES_SESSION_TOKEN__;
   if (injected) {
     _sessionToken = injected;
@@ -188,7 +215,7 @@ export async function buildWsAuthParam(): Promise<[string, string]> {
     const { ticket } = await getWsTicket();
     return ["ticket", ticket];
   }
-  const token = window.__HERMES_SESSION_TOKEN__ ?? "";
+  const token = (getSavedToken() || window.__HERMES_SESSION_TOKEN__) ?? "";
   return ["token", token];
 }
 
@@ -214,7 +241,7 @@ export async function authedFetch(
   init?: RequestInit,
 ): Promise<Response> {
   const headers = new Headers(init?.headers);
-  const token = window.__HERMES_SESSION_TOKEN__;
+  const token = getSavedToken() || window.__HERMES_SESSION_TOKEN__;
   if (token) {
     setSessionHeader(headers, token);
   }
@@ -243,10 +270,26 @@ export async function buildWsUrl(
   params?: Record<string, string>,
 ): Promise<string> {
   const [authName, authValue] = await buildWsAuthParam();
-  const proto = window.location.protocol === "https:" ? "wss:" : "ws:";
+  const savedBase = getSavedBase();
+  
+  let wsProto = window.location.protocol === "https:" ? "wss:" : "ws:";
+  let wsHost = window.location.host;
+  let basePrefix = BASE;
+
+  if (savedBase) {
+    try {
+      const url = new URL(savedBase);
+      wsProto = url.protocol === "https:" ? "wss:" : "ws:";
+      wsHost = url.host;
+      basePrefix = url.pathname.replace(/\/+$/, "");
+    } catch (e) {
+      console.warn("Invalid saved backendUrl, falling back to location host:", e);
+    }
+  }
+
   const qs = new URLSearchParams(params ?? {});
   qs.set(authName, authValue);
-  return `${proto}//${window.location.host}${BASE}${path}?${qs}`;
+  return `${wsProto}//${wsHost}${basePrefix}${path}?${qs}`;
 }
 
 export const api = {

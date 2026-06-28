@@ -13115,7 +13115,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDwA8YDc8OMuaAVqHec1D7qLGaSEnHhd8U",
+  apiKey: "env:FIREBASE_API_KEY_DISCOUNT_HUNTER",
   authDomain: "discount-hunter-ai.firebaseapp.com",
   projectId: "discount-hunter-ai",
   storageBucket: "discount-hunter-ai.firebasestorage.app",
@@ -13225,11 +13225,11 @@ Thought for 7s
 
 
 
-Yes! Exactly right! The Firebase config you got contains the Firebase API key: AIzaSyDwA8YDc8OMuaAVqHec1D7qLGaSEnHhd8U
+Yes! Exactly right! The Firebase config you got contains the Firebase API key: env:FIREBASE_API_KEY_DISCOUNT_HUNTER
 
 Two Different API Keys Needed:
 1. ✅ Firebase API Key (You Already Have This!)
-Value: AIzaSyDwA8YDc8OMuaAVqHec1D7qLGaSEnHhd8U
+Value: env:FIREBASE_API_KEY_DISCOUNT_HUNTER
 Add to Vercel as: VITE_FIREBASE_API_KEY
 Purpose: For authentication (login/signup)
 2. ⏳ Gemini API Key (We'll Get Next)
@@ -13254,7 +13254,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDwA8YDc8OMuaAVqHec1D7qLGaSEnHhd8U",
+  apiKey: "env:FIREBASE_API_KEY_DISCOUNT_HUNTER",
   authDomain: "discount-hunter-ai.firebaseapp.com",
   projectId: "discount-hunter-ai",
   storageBucket: "discount-hunter-ai.firebasestorage.app",
@@ -13270,12 +13270,12 @@ Thought for 3s
 
 
 
-Perfect! Yes, exactly - that Firebase API key (AIzaSyDwA8YDc8OMuaAVqHec1D7qLGaSEnHhd8U) goes into Vercel!
+Perfect! Yes, exactly - that Firebase API key (env:FIREBASE_API_KEY_DISCOUNT_HUNTER) goes into Vercel!
 
 Quick Summary - Add to Vercel:
 From your Firebase config, add these 6 variables to Vercel:
 
-VITE_FIREBASE_API_KEY = AIzaSyDwA8YDc8OMuaAVqHec1D7qLGaSEnHhd8U
+VITE_FIREBASE_API_KEY = env:FIREBASE_API_KEY_DISCOUNT_HUNTER
 VITE_FIREBASE_AUTH_DOMAIN = discount-hunter-ai.firebaseapp.com
 VITE_FIREBASE_PROJECT_ID = discount-hunter-ai
 VITE_FIREBASE_STORAGE_BUCKET = discount-hunter-ai.firebasestorage.app
@@ -65999,7 +65999,7 @@ if __name__ == "__main__":
 **Date:** 2025-04-16T18:21:43.421321Z
 
 ### **HUMAN**:
-i seem to be having issues with my website project i done for a client the issue i am having is when i log in to admin login section of the website i can not navigate it correctly and it does not scroll, vs code augumented ai agent is doing the coding it has alreaqdy said it has fixed it but it has gotten worse, the website in question is https://transformedacademyhq.co.uk if you navigate to the menu you will see the admin section log in details are drivendatadynamics@gmail.com , password DCLrip7292! the issue is when it is in mobile view mainly , my mobile device is a samsung please analyze the website and provide me a well detailed logical prompt to fix this , the issue is the scrolling does not work, what so ever now it was working but the ai coding agent made it worse also the components was not showing on the screen properly, 
+i seem to be having issues with my website project i done for a client the issue i am having is when i log in to admin login section of the website i can not navigate it correctly and it does not scroll, vs code augumented ai agent is doing the coding it has alreaqdy said it has fixed it but it has gotten worse, the website in question is https://transformedacademyhq.co.uk if you navigate to the menu you will see the admin section log in details are drivendatadynamics@gmail.com , password env:SUPABASE_DB_PASSWORD the issue is when it is in mobile view mainly , my mobile device is a samsung please analyze the website and provide me a well detailed logical prompt to fix this , the issue is the scrolling does not work, what so ever now it was working but the ai coding agent made it worse also the components was not showing on the screen properly, 
 
 ### **HUMAN**:
 do you want me to provide any files ? so you can see in more detail?  as it is stored on github but privately 
@@ -66026,7 +66026,7 @@ Since the AI coding agent worsened the issue, review the recent code changes, es
 This section provides a comprehensive analysis of the issues reported with your website, particularly the admin section's scrolling and component display problems on mobile devices, such as your Samsung device. The focus is on identifying potential causes and offering detailed troubleshooting steps, drawing from common web development practices and research findings.
 
 #### Background and Problem Description
-You have encountered issues with the admin login section of your website, [transformedacademyhq.co.uk](https://transformedacademyhq.co.uk), where navigation is impaired, and scrolling does not work, especially in mobile view. Login details provided are drivendatadynamics@gmail.com with password DCLrip7292!. The problem has worsened after interventions by a VS Code augmented AI agent, which initially claimed to fix the issue but instead exacerbated it. Components are also not displaying properly on the screen, particularly on mobile devices.
+You have encountered issues with the admin login section of your website, [transformedacademyhq.co.uk](https://transformedacademyhq.co.uk), where navigation is impaired, and scrolling does not work, especially in mobile view. Login details provided are drivendatadynamics@gmail.com with password env:SUPABASE_DB_PASSWORD. The problem has worsened after interventions by a VS Code augmented AI agent, which initially claimed to fix the issue but instead exacerbated it. Components are also not displaying properly on the screen, particularly on mobile devices.
 
 Given the complexity, the analysis begins by considering common causes for mobile scrolling issues, informed by web development resources and best practices. The goal is to guide you through a systematic approach to diagnose and resolve the problem, acknowledging that without direct access to the code (stored privately on GitHub), general troubleshooting is necessary.
 
@@ -66101,7 +66101,7 @@ Below is a detailed prompt you can provide to an AI coder to address the scrolli
 
 ### Prompt for AI Coder
 
-To resolve the scrolling and component display issues in the admin section of the website [transformedacademyhq.co.uk](https://transformedacademyhq.co.uk), particularly on mobile devices like a Samsung phone, please follow these detailed steps. The issue occurs after logging into the admin section (using credentials: email `drivendatadynamics@gmail.com`, password `DCLrip7292!`), where scrolling is not functioning and components are not displaying properly. The problem worsened after recent changes by an AI coding agent, so your task is to identify and fix the root cause.
+To resolve the scrolling and component display issues in the admin section of the website [transformedacademyhq.co.uk](https://transformedacademyhq.co.uk), particularly on mobile devices like a Samsung phone, please follow these detailed steps. The issue occurs after logging into the admin section (using credentials: email `drivendatadynamics@gmail.com`, password `env:SUPABASE_DB_PASSWORD`), where scrolling is not functioning and components are not displaying properly. The problem worsened after recent changes by an AI coding agent, so your task is to identify and fix the root cause.
 
 #### 1. CSS Inspection and Adjustment
 - **Objective**: Ensure CSS settings allow scrolling and proper rendering on mobile.

@@ -5444,12 +5444,12 @@ PS C:\Users\toplo\Desktop\ai_stuff\clients\jack_davis_big_jack\LJ-Stone-Surfaces
 PS C:\Users\toplo\Desktop\ai_stuff\clients\jack_davis_big_jack\LJ-Stone-Surfaces-LTD> ^C
 PS C:\Users\toplo\Desktop\ai_stuff\clients\jack_davis_big_jack\LJ-Stone-Surfaces-LTD> cd 'c:\Users\toplo\Desktop\ai_stuff\clients\jack_davis_big_jack\LJ-Stone-Surfaces-LTD'
 PS C:\Users\toplo\Desktop\ai_stuff\clients\jack_davis_big_jack\LJ-Stone-Surfaces-LTD> cat .env
-XAI_API_KEY=xai-JMxZYDyZFPxFXAS1xeaY03WoCRcKfPSycVtyzXOJq6VMEn0VBhMftSsCIrrRMOfz4mX2fj2y2DP4vO97
+XAI_API_KEY=env:XAI_API_KEY
 CLOUDINARY_API_KEY=464548242954928
-CLOUDINARY_API_SECRET=3aj9cdfvcaUkjGKRuHr3qf5L_o0
+CLOUDINARY_API_SECRET=env:CLOUDINARY_API_SECRET
 CLOUDINARY_CLOUD_NAME=dp62zjmiz
-DATABASE_URL=postgresql://postgres.tdjyjaemqjhbovsqaoyv:DCLrip7292!@aws-1-ap-southeast-2.pooler.supabase.com:5432/postgres
-FIREBASE_API_KEY=AIzaSyACz95Q74k5M-e_ZFYKrKwfM2zFOLf0l0A
+DATABASE_URL=postgresql://postgres.tdjyjaemqjhbovsqaoyv:env:SUPABASE_DB_PASSWORD@aws-1-ap-southeast-2.pooler.supabase.com:5432/postgres
+FIREBASE_API_KEY=env:FIREBASE_API_KEY_STONE_SIGHT
 NEXT_PUBLIC_FIREBASE_APP_ID=1:163956257460:web:b0b7078caf3940e91f5de1
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=studio-6293455323-148c7.firebaseapp.com
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=163956257460
@@ -5470,10 +5470,10 @@ SUPABASE_ACCESS_TOKEN=[REDACTED_SUPABASE_ACCESS_TOKEN]
 SUPABASE_PROJECT_ID=tdjyjaemqjhbovsqaoyv
 SUPABASE_PROJECT_URL=https://tdjyjaemqjhbovsqaoyv.supabase.co
 SUPABASE_API_KEY=sb_publishable_K0X5rTG5se9ebSgpztE4dA_SsGHb1ch
-SUPABASE_SECRET_KEY=sb_secret_n_W90lBheLgkBN-BWbQjBg_b2ApYVLp
+SUPABASE_SECRET_KEY=env:SUPABASE_SECRET_KEY
 SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRkanlqYWVtcWpoYm92c3Fhb3l2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg4
                                                          4pc3MiOiJzdXBhYmFzZSIsInJlZiI6InRkanlqYWVtcWpoYm92c3Fhb3l2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg4NDEyMzEsImV4cCI6MjA4NDQxNzIzMX0.owMAdZ5SDdt4H4K1DUxJXrcktpUFMeTQR2ISZ3rtsGY
-SUPABASE_SERVICE_ROLE=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRkanlqYWVtcWpoYm92c3Fhb3l2Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2ODg0MTIzMSwiZXhwIjoyMDg0NDE3MjMxfQ.Y43iD4FXAVUHVmaR7Zz7Wo7aCP32LqC8Zye8FHXQmhc
+SUPABASE_SERVICE_ROLE=env:SUPABASE_SERVICE_ROLE
 PS C:\Users\toplo\Desktop\ai_stuff\clients\jack_davis_big_jack\LJ-Stone-Surfaces-LTD> cd 'c:\Users\toplo\Desktop\ai_stuff\clients\jack_davis_big_jack\LJ-Stone-Surfaces-LTD'
 PS C:\Users\toplo\Desktop\ai_stuff\clients\jack_davis_big_jack\LJ-Stone-Surfaces-LTD> dir c:\Users\toplo\Desktop\ai_stuff\clients\jack_davis_big_jack\LJ-Stone-Surfaces-LTD\.gemini\input_file_0.png
 dir : Cannot find path 'C:\Users\toplo\Desktop\ai_stuff\c
@@ -6642,7 +6642,7 @@ import time
 import json
 
 # Load from .env (adapt if using dotenv in TS)
-XAI_API_KEY = os.getenv('XAI_API_KEY')  # Your key: xai-JMxZYDyZFPxFXAS1xeaY03WoCRcKfPSycVtyzXOJq6VMEn0VBhMftSsCIrrRMOfz4mX2fj2y2DP4vO97
+XAI_API_KEY = os.getenv('XAI_API_KEY')  # Your key: env:XAI_API_KEY
 
 def surgical_countertop_edit(input_image_path: str, new_stone_desc: str = "black marble with dramatic gold veins like lightning cracks", retries=3):
     """

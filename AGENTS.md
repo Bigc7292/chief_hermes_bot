@@ -283,6 +283,14 @@ The dashboard embeds the real `hermes --tui` — **not** a rewrite.  See `hermes
 
 **Structured React UI around the TUI is allowed when it is not a second chat surface.** Sidebar widgets, inspectors, summaries, status panels, and similar supporting views (e.g. `ChatSidebar`, `ModelPickerDialog`, `ToolCall`) are fine when they complement the embedded TUI rather than replacing the transcript / composer / terminal. Keep their state independent of the PTY child's session and surface their failures non-destructively so the terminal pane keeps working unimpaired.
 
+### Vercel / Netlify Deployment & Dynamic Redirection
+
+The dashboard supports dynamic backend URL redirection and session token injection stored in browser `localStorage`.
+- `localStorage.getItem("hermes.backendUrl")`: Target Remote API URL (e.g. `https://hermes.yourdomain.com`).
+- `localStorage.getItem("hermes.backendToken")`: Session Token header (`X-Hermes-Session-Token`).
+- By setting these fields, a statically built SPA deployed on Vercel/Netlify can communicate directly with a remote 24/7 EC2 instance.
+- **Important**: To satisfy secure connection (HTTPS/WSS) browser requirements on Vercel/Netlify sites, route the remote EC2 FastAPI backend (`http://localhost:9119`) using a secure HTTPS Cloudflare Tunnel (`cloudflared`).
+
 ### Electron Desktop Chat App (`apps/desktop/`)
 
 A **separate** chat surface from both the classic CLI and the dashboard's embedded TUI. It is an Electron + React + nanostore renderer (`@assistant-ui/react`) that talks to a `tui_gateway` backend over JSON-RPC (`requestGateway(method, params)`). It does NOT embed `hermes --tui` — it has its own composer, transcript, and slash-command pipeline. Route desktop bugs to the `hermes-desktop-app-work` skill, not `hermes-dashboard-work`.

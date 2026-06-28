@@ -20,7 +20,12 @@ REPOS = {
     "superpowers-zh": "https://github.com/jnMetaCode/superpowers-zh",
     "wondelai-skills": "https://github.com/wondelai/skills.git",
     "hermes-skill-factory": "https://github.com/Romanescu11/hermes-skill-factory.git",
-    "youtube-skills": "https://github.com/ZeroPointRepo/youtube-skills.git"
+    "youtube-skills": "https://github.com/ZeroPointRepo/youtube-skills.git",
+    "superpowers": "https://github.com/obra/superpowers.git",
+    "mattpocock-skills": "https://github.com/mattpocock/skills.git",
+    "hermes-community-plugins": "https://github.com/kaishi00/hermes-community-plugins.git",
+    "evey-hermes-plugins": "https://github.com/42-evey/hermes-plugins.git",
+    "plur": "https://github.com/plur-ai/plur.git"
 }
 
 TARGET_DIR = Path("/home/ubuntu/hermes-agent/ignored/external_repos")
